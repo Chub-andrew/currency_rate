@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Rates</title>
+</head>
+<body>
+    <h1>Get Currency Exchange Rates</h1>
+    <form action="/update_rates" method="get">
+        <label for="start">Start Date (YYYYMMDD):</label>
+        <input type="text" id="start" name="start" required><br><br>
+        <label for="end">End Date (YYYYMMDD):</label>
+        <input type="text" id="end" name="end" required><br><br>
+        <label for="valcode">Currency Code (optional):</label>
+        <input type="text" id="valcode" name="valcode"><br><br>
+        <label for="sort">Sort By:</label>
+        <select id="sort" name="sort">
+            <option value="exchangedate">Exchange Date</option>
+            <option value="r030">Currency Code</option>
+            <option value="rate">Rate</option>
+        </select><br><br>
+        <label for="order">Order:</label>
+        <select id="order" name="order">
+            <option value="desc">Descending</option>
+            <option value="asc">Ascending</option>
+        </select><br><br>
+        <input type="submit" value="Get Rates">
+    </form>
+</body>
+</html>
