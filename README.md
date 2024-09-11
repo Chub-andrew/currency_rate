@@ -3,10 +3,11 @@
 This project demonstrates how to create a simple Flask server that retrieves currency exchange rates from the National Bank of Ukraine (NBU) and writes them to Google Sheets. The project uses the Google Sheets API and handles requests to fetch currency data within a specified date range.
 
 
-![Screenshot 2024-09-11 120842](img_example/Screenshot 2024-09-11 120842.png)
-![Screenshot 2024-09-11 120842](img_example/Screenshot 2024-09-11 120907.png)
-![Screenshot 2024-09-11 120842](img_example/Screenshot 2024-09-11 120921.png)
-![Screenshot 2024-09-11 120842](img_example/Screenshot 2024-09-11 121221.png)
+![Screenshot 2024-09-11 120842](img_example/Screenshot%202024-09-11%20120842.png)
+![Screenshot 2024-09-11 120907](img_example/Screenshot%202024-09-11%20120907.png)
+![Screenshot 2024-09-11 120921](img_example/Screenshot%202024-09-11%20120921.png)
+![Screenshot 2024-09-11 121221](img_example/Screenshot%202024-09-11%20121221.png)
+
 ## Requirements
 
 1. Python 3.x
